@@ -4,4 +4,10 @@ import "fmt"
 
 func main() {
 		x := make([]int, 5)
+		fmt.Println(x)
+		fmt.Println(len(x))
+		fmt,println(cap(x))
+
+		y := make([]int, 5, 10)
+		
 		
