@@ -9,5 +9,10 @@ func main() {
 		fmt,println(cap(x))
 
 		y := make([]int, 5, 10)
-		
+		fmt.Println(y)
+		fmt.Println(len(y))
+		fmt.Println(cap(y))
+
+}
+
 		
